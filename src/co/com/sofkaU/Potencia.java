@@ -12,4 +12,5 @@ public class Potencia {
          System.out.println(calcularPotencia(numero));
     }
 
+
 }
