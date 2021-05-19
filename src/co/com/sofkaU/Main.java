@@ -6,7 +6,10 @@ public class Main {
 
         System.out.println("Bienvenidos al menu");
 
+        Potencia pow = new Potencia();
 
+        pow.numero= 20;
+        pow.imprimir();
 
     }
 }
