@@ -11,6 +11,7 @@ public class Main {
     double n1 = 3, n2= 5.2;
     double numMenor= NumMenor.buscarNumMenor(n1,n2);
     System.out.println(numMenor);
+    //Esto es uns prueba.
     }
 
 }
