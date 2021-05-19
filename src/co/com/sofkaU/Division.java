@@ -8,12 +8,11 @@ public class Division {
 
 
     public String getDivision(double numero1, double numero2, double resultado){
-        if(numero1 == 0 || numero2 == 0){
+        if(numero2 == 0){
             return "No se puede dividir por cero";
         }else {
             resultado = numero1 / numero2;
             return "La division es: "+resultado ;
         }
     }
-
 }
