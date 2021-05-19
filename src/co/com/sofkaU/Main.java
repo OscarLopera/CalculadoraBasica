@@ -25,6 +25,9 @@ public class Main {
 
             case "3":
                 System.out.printf("Seleccionaste la opción 3");
+                Division div =  new Division();
+
+                System.out.println(div.getDivision(2,2));
                 break;
 
             case "4":
