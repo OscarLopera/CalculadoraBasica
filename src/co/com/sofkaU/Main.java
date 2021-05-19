@@ -4,7 +4,8 @@ import utils.NumMenor;
 import java.util.*;
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
 
             Scanner entrada = new Scanner(System.in);
 
@@ -21,6 +22,11 @@ public class Main {
 
             case "2":
                 System.out.printf("Seleccionaste la opción 2");
+                Potencia pow = new Potencia();
+                pow.numero = 20;
+                pow.imprimir();
+
+
                 break;
 
             case "3":
@@ -44,9 +50,6 @@ public class Main {
         }
 
 
-
-    //Esto es una prueba;
-        // Prueba 2
     }
     private static void dibujoMenu() {
         System.out.print("\n" +
